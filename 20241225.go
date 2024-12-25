@@ -18,6 +18,10 @@ func has_pair_with_sum(data []int, sum int) bool {
 }
 
 func main() {
-	fmt.Println(has_pair_with_sum([]int{1, 2, 3, 9}, 8)) // false
-	fmt.Println(has_pair_with_sum([]int{1, 2, 4, 4}, 8)) // true
+	nums := []int{1, 2, 3, 9}
+	sum := 8
+	nums2 := []int{1, 2, 4, 4}
+	sum2 := 8
+	fmt.Println(has_pair_with_sum(nums, sum))   // false
+	fmt.Println(has_pair_with_sum(nums2, sum2)) // true
 }
